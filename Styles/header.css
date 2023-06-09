@@ -1,0 +1,38 @@
+@import url(roots.css);
+
+.header {
+  width: 100%;
+  background-color: var(--corAzulIconstru);
+  /* border-bottom: 3px solid var(--corFundo); */
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 3%;
+  flex-wrap: wrap;
+}
+
+.logo-constru {
+  width: 15rem;
+}
+
+.nav-header {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.nav-header li {
+  list-style: none;
+}
+
+.a-nav {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--corDouradoIconstru);
+}
+.a-nav:checked {
+  border-bottom: 5px solid red;
+}

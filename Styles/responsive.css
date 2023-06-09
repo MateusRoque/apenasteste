@@ -1,0 +1,273 @@
+@import url(roots.css);
+
+@media (max-width: 1880px) {
+  video {
+    width: 250px;
+  }
+  .img-eng {
+    width: 30%;
+  }
+  .texts {
+    font-size: 1rem;
+    gap: 10px;
+  }
+  .name {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 1472px) {
+  .text-about {
+    width: 100%;
+    padding-left: 10px;
+  }
+  .img-eng {
+    width: 50%;
+  }
+}
+
+@media (max-width: 924px) {
+  .nav-header {
+    display: none;
+  }
+  video {
+    width: 200px;
+  }
+}
+
+@media (max-width: 414px) {
+  .fixed-button {
+    left: 80vh;
+  }
+  .logo-constru {
+    width: 90%;
+  }
+  .container-header {
+    padding: 50px;
+  }
+  .container-contato {
+    padding: 0;
+    height: 80vh;
+    gap: 200px;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .h1-contato {
+    padding: 20px;
+    text-align: jus;
+  }
+  .contato {
+    flex-direction: column;
+  }
+  .title-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+  .form-contato {
+    width: 100%;
+    background-color: var(--corAzulIconstru);
+    padding: 30px;
+  }
+  .form {
+    padding: 0;
+  }
+  .card-container {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .card {
+    width: 80%;
+    border-radius: 20px;
+  }
+  .projetos-container {
+    border-radius: 20px;
+  }
+  .title-projeto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 2px;
+    margin-bottom: 20%;
+  }
+  video {
+    width: 150px;
+  }
+  .show-video {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .show-video-container {
+    display: block;
+  }
+  .info-container {
+    gap: 5px;
+    flex-direction: column;
+  }
+  .title-info {
+    font-size: 20px;
+  }
+  .feedbacks-container {
+    border-radius: 20px 20px 0px 0px;
+  }
+  .box-container {
+    padding: 20px;
+  }
+  .paragraph-feedback-title {
+    font-size: 40px;
+  }
+  .button-link {
+    width: 100%;
+    margin: 50px 20px 0px 20px;
+  }
+  .about-container {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .h1-eng-color {
+    color: var(--corDouradoIconstru);
+  }
+  .name,
+  .text,
+  .crea {
+    color: var(--corFundo);
+  }
+  .name::before {
+    background-color: var(--corDouradoIconstru);
+    width: 20px;
+    height: 2px;
+  }
+  .text-about {
+    width: 100%;
+    height: 50%;
+    padding-right: 0;
+    margin-left: 0;
+    background-color: var(--corAzulIconstru);
+  }
+  .sec-img-eng {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+  }
+  .img-eng {
+    width: 60%;
+    box-shadow: 1px 1px 20px 1px #e5e5e5a8;
+    border-radius: 10px;
+  }
+
+  .sec-doubts {
+    width: 90%;
+    padding: 20px;
+  }
+  .details-doubts {
+    padding: 20px;
+  }
+  .details-doubts[open] {
+    padding: 20px;
+  }
+  .footer-container {
+    width: 100%;
+    height: 50%;
+  }
+  .h1-footer::after,
+  .h1-footer::before {
+    width: 20px;
+  }
+  .content-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 5px;
+    flex-direction: column;
+  }
+  .h3-title-footer {
+    text-align: center;
+  }
+  .section-content1 {
+    width: 100%;
+    display: block;
+  }
+  .tel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-content2 {
+    width: 100%;
+  }
+  .section-content3 {
+    width: 100%;
+  }
+  .paragraph-atendimento {
+    width: 100%;
+  }
+  .section-content4 {
+    width: 100%;
+  }
+  .paragraph-sociais {
+    text-align: center;
+  }
+}
+@media (max-width: 320px) {
+  .container-header {
+    padding: 10px;
+    background-color: red;
+  }
+  .container-contato {
+    gap: 5px;
+    height: 100%;
+  }
+  .submit-orcamento {
+    width: 80%;
+  }
+  .card-container {
+    gap: 5px;
+  }
+  .card {
+    width: 80%;
+    padding: 10px;
+  }
+  .title-card {
+    font-size: 20px;
+  }
+  .title-projeto {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  video {
+    width: 100px;
+  }
+  .info-container {
+    flex-wrap: wrap;
+    display: flex;
+    height: 100%;
+  }
+  .text-about {
+    height: 100%;
+  }
+  .img-eng {
+    display: none;
+  }
+  .doubts-container {
+    height: 100%;
+  }
+  .sec-doubts {
+    width: 100%;
+    height: 100%;
+  }
+  .email {
+    width: 100%;
+    flex-direction: column;
+  }
+}
